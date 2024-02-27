@@ -11,8 +11,21 @@
 		BFC53E542B7F6AA200174458 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53E532B7F6AA200174458 /* ContentView.swift */; };
 		BFC53E562B7F6AA300174458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC53E552B7F6AA300174458 /* Assets.xcassets */; };
 		BFC53E592B7F6AA300174458 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC53E582B7F6AA300174458 /* Preview Assets.xcassets */; };
-		BFC53E5B2B7F6AA300174458 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53E5A2B7F6AA300174458 /* Persistence.swift */; };
-		BFC53E5E2B7F6AA300174458 /* Air_Quality.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFC53E5C2B7F6AA300174458 /* Air_Quality.xcdatamodeld */; };
+		BFC53E652B80D43C00174458 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53E642B80D43C00174458 /* LocationManager.swift */; };
+		BFC53E682B80D9F200174458 /* LocationRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53E672B80D9F200174458 /* LocationRequestView.swift */; };
+		BFC53E6A2B80E23700174458 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53E692B80E23700174458 /* HomeScreenView.swift */; };
+		BFC53E6D2B85F82800174458 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53E6C2B85F82800174458 /* NetworkManager.swift */; };
+		BFC53E6F2B85F84B00174458 /* AirQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53E6E2B85F84B00174458 /* AirQuality.swift */; };
+		BFC53E712B866AF000174458 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53E702B866AF000174458 /* Errors.swift */; };
+		BFC53E742B866EC000174458 /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53E732B866EC000174458 /* HomeScreenViewModel.swift */; };
+		BFC53E762B88B5BB00174458 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53E752B88B5BB00174458 /* MapView.swift */; };
+		BFC53E782B88B67800174458 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53E772B88B67800174458 /* JournalView.swift */; };
+		BFC53E7A2B8942F700174458 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53E792B8942F700174458 /* MapViewModel.swift */; };
+		BFC53E7C2B8CA7AA00174458 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53E7B2B8CA7AA00174458 /* Station.swift */; };
+		BFC53E812B8D808400174458 /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53E802B8D808400174458 /* JournalEntry.swift */; };
+		BFC53E862B8DD0A600174458 /* EntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53E852B8DD0A600174458 /* EntryCell.swift */; };
+		BFC53E892B8DD3A500174458 /* NewEntrySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53E882B8DD3A500174458 /* NewEntrySheet.swift */; };
+		BFC53E8B2B8DEC1400174458 /* UpdateEntrySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC53E8A2B8DEC1400174458 /* UpdateEntrySheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +34,21 @@
 		BFC53E532B7F6AA200174458 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFC53E552B7F6AA300174458 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFC53E582B7F6AA300174458 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BFC53E5A2B7F6AA300174458 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		BFC53E5D2B7F6AA300174458 /* Air_Quality.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Air_Quality.xcdatamodel; sourceTree = "<group>"; };
+		BFC53E642B80D43C00174458 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		BFC53E672B80D9F200174458 /* LocationRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRequestView.swift; sourceTree = "<group>"; };
+		BFC53E692B80E23700174458 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		BFC53E6C2B85F82800174458 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		BFC53E6E2B85F84B00174458 /* AirQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQuality.swift; sourceTree = "<group>"; };
+		BFC53E702B866AF000174458 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		BFC53E732B866EC000174458 /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
+		BFC53E752B88B5BB00174458 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BFC53E772B88B67800174458 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		BFC53E792B8942F700174458 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		BFC53E7B2B8CA7AA00174458 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		BFC53E802B8D808400174458 /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		BFC53E852B8DD0A600174458 /* EntryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCell.swift; sourceTree = "<group>"; };
+		BFC53E882B8DD3A500174458 /* NewEntrySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEntrySheet.swift; sourceTree = "<group>"; };
+		BFC53E8A2B8DEC1400174458 /* UpdateEntrySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateEntrySheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +81,14 @@
 		BFC53E502B7F6AA200174458 /* Air Quality */ = {
 			isa = PBXGroup;
 			children = (
+				BFC53E872B8DD39400174458 /* Sheets */,
+				BFC53E842B8DD09600174458 /* Cells */,
+				BFC53E722B866EAA00174458 /* ViewModels */,
+				BFC53E6B2B80EA0B00174458 /* Models */,
+				BFC53E662B80D9CF00174458 /* Views */,
 				BFC53E512B7F6AA200174458 /* Air_QualityApp.swift */,
-				BFC53E532B7F6AA200174458 /* ContentView.swift */,
 				BFC53E552B7F6AA300174458 /* Assets.xcassets */,
-				BFC53E5A2B7F6AA300174458 /* Persistence.swift */,
-				BFC53E5C2B7F6AA300174458 /* Air_Quality.xcdatamodeld */,
+				BFC53E7D2B8CACA500174458 /* Utilities */,
 				BFC53E572B7F6AA300174458 /* Preview Content */,
 			);
 			path = "Air Quality";
@@ -71,6 +100,64 @@
 				BFC53E582B7F6AA300174458 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BFC53E662B80D9CF00174458 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BFC53E532B7F6AA200174458 /* ContentView.swift */,
+				BFC53E672B80D9F200174458 /* LocationRequestView.swift */,
+				BFC53E692B80E23700174458 /* HomeScreenView.swift */,
+				BFC53E752B88B5BB00174458 /* MapView.swift */,
+				BFC53E6E2B85F84B00174458 /* AirQuality.swift */,
+				BFC53E772B88B67800174458 /* JournalView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BFC53E6B2B80EA0B00174458 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BFC53E7B2B8CA7AA00174458 /* Station.swift */,
+				BFC53E802B8D808400174458 /* JournalEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFC53E722B866EAA00174458 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BFC53E732B866EC000174458 /* HomeScreenViewModel.swift */,
+				BFC53E792B8942F700174458 /* MapViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BFC53E7D2B8CACA500174458 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BFC53E642B80D43C00174458 /* LocationManager.swift */,
+				BFC53E6C2B85F82800174458 /* NetworkManager.swift */,
+				BFC53E702B866AF000174458 /* Errors.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BFC53E842B8DD09600174458 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BFC53E852B8DD0A600174458 /* EntryCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BFC53E872B8DD39400174458 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				BFC53E882B8DD3A500174458 /* NewEntrySheet.swift */,
+				BFC53E8A2B8DEC1400174458 /* UpdateEntrySheet.swift */,
+			);
+			path = Sheets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +230,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFC53E5E2B7F6AA300174458 /* Air_Quality.xcdatamodeld in Sources */,
-				BFC53E5B2B7F6AA300174458 /* Persistence.swift in Sources */,
+				BFC53E782B88B67800174458 /* JournalView.swift in Sources */,
+				BFC53E8B2B8DEC1400174458 /* UpdateEntrySheet.swift in Sources */,
+				BFC53E862B8DD0A600174458 /* EntryCell.swift in Sources */,
+				BFC53E6D2B85F82800174458 /* NetworkManager.swift in Sources */,
+				BFC53E742B866EC000174458 /* HomeScreenViewModel.swift in Sources */,
+				BFC53E682B80D9F200174458 /* LocationRequestView.swift in Sources */,
+				BFC53E652B80D43C00174458 /* LocationManager.swift in Sources */,
+				BFC53E7C2B8CA7AA00174458 /* Station.swift in Sources */,
 				BFC53E542B7F6AA200174458 /* ContentView.swift in Sources */,
+				BFC53E712B866AF000174458 /* Errors.swift in Sources */,
+				BFC53E6A2B80E23700174458 /* HomeScreenView.swift in Sources */,
+				BFC53E762B88B5BB00174458 /* MapView.swift in Sources */,
 				BFC53E522B7F6AA200174458 /* Air_QualityApp.swift in Sources */,
+				BFC53E812B8D808400174458 /* JournalEntry.swift in Sources */,
+				BFC53E892B8DD3A500174458 /* NewEntrySheet.swift in Sources */,
+				BFC53E6F2B85F84B00174458 /* AirQuality.swift in Sources */,
+				BFC53E7A2B8942F700174458 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +383,7 @@
 				DEVELOPMENT_TEAM = NJ3Y4LJ7H6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us to access your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -312,6 +413,7 @@
 				DEVELOPMENT_TEAM = NJ3Y4LJ7H6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us to access your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -352,19 +454,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		BFC53E5C2B7F6AA300174458 /* Air_Quality.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				BFC53E5D2B7F6AA300174458 /* Air_Quality.xcdatamodel */,
-			);
-			currentVersion = BFC53E5D2B7F6AA300174458 /* Air_Quality.xcdatamodel */;
-			path = Air_Quality.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = BFC53E462B7F6AA200174458 /* Project object */;
 }
